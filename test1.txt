@@ -1,0 +1,102 @@
+[yesen001@empress hw2]$ emacs fa.cpp
+[yesen001@empress hw2]$ g++ fa.cpp
+[yesen001@empress hw2]$ ./a.out
+Enter the input file name:fain.txt
+.....Scanner was called...
+Word is:ab_2a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: _
+I am stuck in state 2
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:a_b_2_a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: _
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:.23
+Trying the mytoken machine...
+current state: 0
+character: .
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:23.3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:23
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:ab&c
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: &
+I am stuck in state 2
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:23.6
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:2a3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:22..2
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:23.
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR
+.....Scanner was called...
+Word is:EOF
+Trying the mytoken machine...
+current state: 0
+character: E
+I am stuck in state 0
+Lexical Error: The string is not in my language
+End of File encountered
